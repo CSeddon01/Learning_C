@@ -22,4 +22,12 @@ int main(void)
     int z = x + y;
     printf("%i\n", z);
 }
+//Update calculator for larger numbers
+int main(void)
+{
+    long x = get_int("x: ");
+    long y = get_int("y: ");
+    
+    printf("%li\n", x + y);
+}
 
